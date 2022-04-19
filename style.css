@@ -1,0 +1,43 @@
+*{margin: 0;
+    padding: 0;
+    list-style: none;}
+
+body{background-color: dimgray;}
+
+
+
+#main{background-color: #f4623a;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+  
+#question1, #question2 h1{margin-bottom: 15px;}
+
+label{cursor: pointer;
+    padding: 7px 15px;}
+
+input{margin: 15px 0;}
+
+
+
+button{border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #fff;
+    font-size: .9em;
+    margin-top: 15px;
+    cursor: pointer;}
+
+p{background-color: #fff;
+    display: none;
+    padding: 8.5px 15px;
+    margin-top: 15px;}
+
+
+/*Vai mostrar a resposta certa no final*/
+.correct .correct-answer{background-color: #20f120;}
